@@ -1,0 +1,4 @@
+- source: quarto-inline-code.qmd
+  quarto-pub:
+    - id: f82bd12f-5313-414a-83fc-7271094dff97
+      url: 'https://quartopub.com/sites/mara/quarto-inline-code'
