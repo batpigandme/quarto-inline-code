@@ -1,0 +1,13 @@
+---
+title: "quarto-inline-code"
+format:
+  html:
+    toc: true
+---
+
+Here is an example of `code` inline. 
+
+The color of the code I'm getting with no styling added is `#9954bb`. 
+The default background color for inline code is `#f6f6f6`.
+The contrast ratio for these two is 4.47 (too low). 
+I can make this [WCAG compliant](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast) (CCR >= 4.5 for body text) by increasing the contrast by setting `$code-color` to `#9753b8`, but it would be nice if this was the default behavior.
